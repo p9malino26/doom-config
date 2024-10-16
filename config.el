@@ -89,8 +89,8 @@
   :bind (:map copilot-completion-map
               ("<tab>" . 'copilot-accept-completion)
               ("TAB" . 'copilot-accept-completion)
-              ("C-TAB" . 'copilot-accept-completion-by-word)
-              ("C-<tab>" . 'copilot-accept-completion-by-word)))
+              ("<backtab>" . 'copilot-accept-completion-by-word)
+              ("S-<tab>" . 'copilot-accept-completion-by-word)))
 ;; (require 'evil-mc)
 ;; ;; highlights all matches of the selection in the buffer.
 ;; (define-key evil-visual-state-map "R" 'evil-mc-make-all-cursors)
